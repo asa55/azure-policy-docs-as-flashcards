@@ -433,7 +433,7 @@ An **assignment** is a policy definition or initiative that has been assigned to
 
 ##
 
-Example: at the subscription scope, you can assign a **definition** that prevents the creation of networking resources. You could exclude a resource group in that subscription that is intended for networking infrastructure. You then grant access to this networking resource group to users that you trust with creating networking resources.
+Example: at the subscription scope, you can assign a `_____` that prevents the creation of networking resources. You could exclude a resource group in that subscription that is intended for networking infrastructure. You then grant access to this networking resource group to users that you trust with creating networking resources.
 
 %
 
@@ -441,11 +441,11 @@ Example: at the subscription scope, you can assign a **definition** that prevent
 
 ##
 
-Example: You might want to assign a resource type allowlist definition at the **management group** level. Then you assign a more permissive policy (allowing more resource types) on a child **management group** or even directly on subscriptions. However, this example wouldn't work because Azure Policy is an explicit deny system. Instead, you need to exclude the child **management group** or subscription from the **management group**-level assignment. Then, assign the more permissive definition on the child **management group** or subscription level. If any assignment results in a resource getting denied, then the only way to allow the resource is to modify the denying assignment.
+Example: You might want to assign a resource type allowlist definition at the `_____` level. Then you assign a more permissive policy (allowing more resource types) on a child `_____` or even directly on subscriptions. However, this example wouldn't work because Azure Policy is an explicit deny system. Instead, you need to exclude the child `_____` or subscription from the `_____`-level assignment. Then, assign the more permissive definition on the child `_____` or subscription level. If any assignment results in a resource getting denied, then the only way to allow the resource is to modify the denying assignment.
 
 %
 
-Example: You might want to assign a resource type allowlist definition at the `_____` level. Then you assign a more permissive policy (allowing more resource types) on a child `_____` or even directly on subscriptions. However, this example wouldn't work because Azure Policy is an explicit deny system. Instead, you need to exclude the child `_____` or subscription from the `_____`-level assignment. Then, assign the more permissive definition on the child `_____` or subscription level. If any assignment results in a resource getting denied, then the only way to allow the resource is to modify the denying assignment.
+Example: You might want to assign a resource type allowlist definition at the **management group** level. Then you assign a more permissive policy (allowing more resource types) on a child **management group** or even directly on subscriptions. However, this example wouldn't work because Azure Policy is an explicit deny system. Instead, you need to exclude the child **management group** or subscription from the **management group**-level assignment. Then, assign the more permissive definition on the child **management group** or subscription level. If any assignment results in a resource getting denied, then the only way to allow the resource is to modify the denying assignment.
 
 ##
 
